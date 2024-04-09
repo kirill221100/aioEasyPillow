@@ -53,7 +53,7 @@ class Editor:
             self.image: Image.Image = image.image
         else:
             self.image: Image.Image = image
-        self.image: Image.Image = self.image.convert("RGBA")
+        self.image: Image.Image = self.image.convert("RGB")
 
 
     @property
